@@ -2,6 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public class PerceptionEvent
+{
+    public enum senses { VISION, SOUND };
+    public enum types { NEW, LOST };
+
+    public GameObject go;
+    public senses sense;
+    public types type;
+}
+
 public class Vision : MonoBehaviour {
 
     public Camera frustum;
