@@ -3,13 +3,9 @@ using System.Collections;
 
 public class PerceptionManager : MonoBehaviour {
 
-    private float time = 0.0f;
-    public float timer = 2.0f;
-    // Update is called once per frame
-
     void PerceptionEvent(PerceptionEvent ev)
     {
-
+        Debug.Log(" __ ");
         if (ev.type == global::PerceptionEvent.types.NEW)
         {
             if (ev.sense == global::PerceptionEvent.senses.VISION)
