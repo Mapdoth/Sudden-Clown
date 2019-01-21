@@ -109,7 +109,7 @@ MonoBehaviour:
     showTransformField: 0
     existing: 1
   mode2D: 0
-  closed: 0
+  closed: 1
   points:
   - controlType: 1
     positionLocal: {x: -15.233303, y: -0.79999995, z: 6.0878305}
@@ -146,6 +146,34 @@ MonoBehaviour:
     pointTransform: {fileID: 0}
     curve: {fileID: 114173692068840886}
     fieldsValues: []
+  - controlType: 1
+    positionLocal: {x: -0.9682822, y: -0.79999995, z: -14.446543}
+    controlFirstLocal: {x: 0, y: -0, z: 0}
+    controlSecondLocal: {x: -0, y: 0, z: -0}
+    pointTransform: {fileID: 0}
+    curve: {fileID: 114173692068840886}
+    fieldsValues: []
+  - controlType: 1
+    positionLocal: {x: -14.143381, y: -0.79999995, z: -14.2925825}
+    controlFirstLocal: {x: 0, y: -0, z: 0}
+    controlSecondLocal: {x: -0, y: 0, z: -0}
+    pointTransform: {fileID: 0}
+    curve: {fileID: 114173692068840886}
+    fieldsValues: []
+  - controlType: 1
+    positionLocal: {x: -14.161642, y: -0.79999995, z: -10.705517}
+    controlFirstLocal: {x: 0, y: -0, z: 0}
+    controlSecondLocal: {x: -0, y: 0, z: -0}
+    pointTransform: {fileID: 0}
+    curve: {fileID: 114173692068840886}
+    fieldsValues: []
+  - controlType: 1
+    positionLocal: {x: -14.2283, y: -0.79999995, z: -2.027729}
+    controlFirstLocal: {x: 0, y: -0, z: 0}
+    controlSecondLocal: {x: -0, y: 0, z: -0}
+    pointTransform: {fileID: 0}
+    curve: {fileID: 114173692068840886}
+    fieldsValues: []
   pointsComponents: []
   pointsGameObjects: []
   fields: []
@@ -163,7 +191,7 @@ MonoBehaviour:
   forceChangedEventMode: 0
 --- !u!114 &114779475095225478
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1265155325759334}
@@ -172,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d20671ad38ded4fa2362df353b9a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showHandles: 1
+  showHandles: 0
   hidden: 0
   parent: {fileID: 0}
   ccName: 
