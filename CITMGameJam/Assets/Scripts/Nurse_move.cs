@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Nurse_move : MonoBehaviour {
 
-    public bool player_seen;
+    static public bool player_seen;
     public GameObject player;
     public float speed;
 

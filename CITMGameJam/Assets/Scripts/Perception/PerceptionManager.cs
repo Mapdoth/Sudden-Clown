@@ -12,11 +12,13 @@ public class PerceptionManager : MonoBehaviour {
 
         if (ev.type == global::PerceptionEvent.types.NEW)
         {
-            Debug.Log("Saw something NEW");
+            if (ev.sense == global::PerceptionEvent.senses.VISION)
+                Nurse_move.player_seen = true;
         }
         else
         {
-            Debug.Log("LOST something");
+            if (ev.sense == global::PerceptionEvent.senses.VISION)
+                Nurse_move.player_seen = false;
         }
     }
 }

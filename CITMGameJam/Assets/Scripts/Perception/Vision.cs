@@ -72,7 +72,12 @@ public class Vision : MonoBehaviour {
         {
             if (detected_now.Contains(go) == false)
             {
-                Debug.Log("Player out");
+                PerceptionEvent perception = new PerceptionEvent();
+                perception.go = go;
+                perception.sense = PerceptionEvent.senses.VISION;
+                perception.type = PerceptionEvent.types.LOST;
+
+                SendMessage("PerceptionEvent", perception);
             }
         }
 
