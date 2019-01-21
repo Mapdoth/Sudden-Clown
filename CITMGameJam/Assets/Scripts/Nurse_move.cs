@@ -21,11 +21,8 @@ public class Nurse_move : MonoBehaviour {
 		
         if (player_seen)
         {
-            Vector3 dir = player.transform.position - transform.position;
-
-            dir.z = 0;
+            Vector2 dir = new Vector2(player.transform.position.x, player.transform.position.z) - new Vector2 (transform.position.x, transform.position.z);
           
-
             transform.transform.Translate(dir.normalized * speed);
             cone.transform.LookAt(player.transform);
             
