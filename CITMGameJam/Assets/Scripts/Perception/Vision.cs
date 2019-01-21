@@ -59,7 +59,12 @@ public class Vision : MonoBehaviour {
         {
             if (detected.Contains(go) == false)
             {
-                Debug.Log("Player in");
+                PerceptionEvent perception = new PerceptionEvent();
+                perception.go = go;
+                perception.sense = PerceptionEvent.senses.VISION;
+                perception.type = PerceptionEvent.types.NEW;
+
+                SendMessage("PerceptionEvent", perception);
             }
         }
 
