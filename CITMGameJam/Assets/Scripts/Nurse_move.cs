@@ -11,15 +11,17 @@ public class Nurse_move : MonoBehaviour {
     public Transform nurse;
 
 
-	// Update is called once per frame
-	void FixedUpdate () {
-		
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+
         if (player_seen)
-        {
             GetComponent<NavMeshAgent>().destination = player.transform.position;
 
+        if (!GetComponent<NavMeshAgent>().velocity.Equals(Vector3.zero))
+        {
             cone.transform.LookAt(player.transform);
-            nurse.transform.rotation = new Quaternion(0.7071f,0.0f,0.0f,0.7071f);
+            nurse.transform.rotation = new Quaternion(0.7071f, 0.0f, 0.0f, 0.7071f);
         }
     }
 }
