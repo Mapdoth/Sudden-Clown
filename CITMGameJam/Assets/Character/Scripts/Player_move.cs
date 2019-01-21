@@ -8,35 +8,41 @@ public class Player_move : MonoBehaviour {
 
 
     public float speed;
- 
+    private Vector3 dir;
 
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
+
+        dir = Vector3.zero;
 
         if (Input.GetKey("w"))
         {
-			transform.Translate(0,0,speed);
+            dir.z = 1.0f;
         }
 
         if (Input.GetKey("s"))
         {
-			transform.Translate(0, 0, -speed);
+            dir.z = -1.0f;
         }
 
         if (Input.GetKey("a"))
         {
-            transform.Translate(-speed,0, 0);
+            dir.x = -1.0f;
         }
 
         if (Input.GetKey("d"))
         {
-            transform.Translate(speed, 0, 0);
+            dir.x = 1.0f;
         }
 
+        if(dir != Vector3.zero)
+        {
+            transform.Translate(dir.normalized * speed);
+        }
 
     }
 }
