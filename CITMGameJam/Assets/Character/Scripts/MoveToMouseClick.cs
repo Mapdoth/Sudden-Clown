@@ -6,7 +6,6 @@ public class MoveToMouseClick : MonoBehaviour
 {
 
     public GameObject[] SendGoal;
-    public SphereCollider collider;
     public int mouse_button = 0;
 
     // Update is called once per frame
@@ -21,31 +20,16 @@ public class MoveToMouseClick : MonoBehaviour
                 transform.position = hit.point;
             }
 
-            foreach (GameObject go in SendGoal)
+            Collider[] hitColliders = Physics.OverlapSphere(gameObject.transform.position, GetComponent<SphereCollider>().radius);
+            int i = 0;
+            while (i < hitColliders.Length)
             {
-                if (go != null && go.GetComponent<UnityEngine.AI.NavMeshAgent>() != null)
+                if (hitColliders[i].gameObject.CompareTag("Player"))
                 {
-                    if(CheckSphereColl(go))
-                        go.GetComponent<UnityEngine.AI.NavMeshAgent>().destination = transform.position;
+                    hitColliders[i].GetComponent<UnityEngine.AI.NavMeshAgent>().destination = transform.position;
                 }
+                ++i;
             }
         }
-    }
-
-    private bool CheckSphereColl(GameObject go)
-    {
-        Collider[] hitColliders = Physics.OverlapSphere(gameObject.transform.position, collider.radius);
-       
-        int i = 0;
-        while (i < hitColliders.Length)
-        {
-            if (hitColliders[i].gameObject.CompareTag("Audio Emitter"))
-            {
-                return true;
-            }
-            ++i;
-        }
-
-        return false;
     }
 }
