@@ -19,12 +19,12 @@ public class Player_move : MonoBehaviour {
 
         if (Input.GetKey("w"))
         {
-            transform.Translate(0,speed,0);
+			transform.Translate(0,0,speed);
         }
 
         if (Input.GetKey("s"))
         {
-            transform.Translate(0, -speed, 0);
+			transform.Translate(0, 0, -speed);
         }
 
         if (Input.GetKey("a"))
