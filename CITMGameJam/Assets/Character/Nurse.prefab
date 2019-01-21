@@ -122,9 +122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07627f35e9fa34cb5dcb96cbedb3a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1885482065000610, guid: c45b44c1fe8afa6418655a1d4c97991c, type: 2}
   cone: {fileID: 1333078792787014}
-  speed: 0
+  speed: 0.1
 --- !u!114 &114829273807025120
 MonoBehaviour:
   m_ObjectHideFlags: 1

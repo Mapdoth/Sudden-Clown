@@ -23,8 +23,10 @@ public class Nurse_move : MonoBehaviour {
         {
             Vector3 dir = player.transform.position - transform.position;
 
-            transform.transform.Translate(dir.normalized * speed);
+            dir.z = 0;
+          
 
+            transform.transform.Translate(dir.normalized * speed);
             cone.transform.LookAt(player.transform);
             
         }
