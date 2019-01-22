@@ -12,17 +12,19 @@ public class old_man_kill : MonoBehaviour {
     public GameObject a_but;
     public GameObject b_but;
     public float distance_to_trigger;
+    private float clock;
 
+    private Animator animation;
 
     // Use this for initialization
     void Start () {
-
+        animation = GetComponentInChildren<Animator>();
     }
 	
 	// Update is called once per frame
 	void Update () {
 
-        Vector3 p_distance_vec = player.transform.position - transform.position;
+        Vector3 p_distance_vec = transform.position - player.transform.position;
         float p_distance = p_distance_vec.magnitude;
 
         if(p_distance <= distance_to_trigger && Surprise.key_react < 0)
@@ -61,6 +63,26 @@ public class old_man_kill : MonoBehaviour {
             Surprise.key_react = -1;
         }
 
+        if (Surprise.atacking)
+        {
+            animation.SetBool("isDead", true);
+            
 
-	}
+        }
+
+        if (animation.GetBool("isDead"))
+        {
+            clock += Time.deltaTime;
+        }
+
+        if(clock >= 3)
+        {
+            gameObject.SetActive(false);
+        }
+       
+
+
+
+
+    }
 }
