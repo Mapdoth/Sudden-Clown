@@ -42,6 +42,16 @@ public class Nurse_move : MonoBehaviour {
 
             case NurseMovements.GoToSound:
                 GetComponent<NavMeshAgent>().destination = sound_emiter.transform.position;
+
+                Debug.Log("%");
+
+                if (GetComponent<NavMeshAgent>().velocity.Equals(Vector3.zero))
+                {
+                    movements = NurseMovements.Patrol;
+                    sound_emiter.SetActive(false);
+                }
+
+
                 break;
         }
 
