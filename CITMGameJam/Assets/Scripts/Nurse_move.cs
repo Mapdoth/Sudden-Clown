@@ -77,30 +77,6 @@ public class Nurse_move : MonoBehaviour {
         }
 
         //PLAYER ATTACK
-        float distance = (transform.position - player.transform.position).magnitude;
-        if (distance <= range)
-        {
-            if (!attacking)
-            {
-                attacking = true;
-                time = Time.time;
-            }
-        }
-        else
-        {
-            attacking = false;
-        }
-
-        if(attacking && !Player_move.death && Time.time >= (time + timerDeath))
-        {
-            animator.SetBool("isAttacking", true);
-            GetComponent<NavMeshAgent>().destination = transform.position;
-            Player_move.death = true;
-        }
-        else
-        {
-            animator.SetBool("isAttacking", false);
-        }
 
     }
 }
