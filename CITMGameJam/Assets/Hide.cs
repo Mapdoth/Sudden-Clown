@@ -9,6 +9,7 @@ public class Hide : MonoBehaviour {
     public GameObject plant;
     private bool hidden = false;
     private GameObject player;
+    private AudioSource hide_sound;
 
     //button
     bool playerIndexSet = false;
@@ -21,6 +22,7 @@ public class Hide : MonoBehaviour {
     private void Start()
     {
         player = GameObject.Find("Main_Character 1");
+        hide_sound = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider col)
@@ -30,6 +32,7 @@ public class Hide : MonoBehaviour {
             col.gameObject.SetActive(false);
             plant.SetActive(true);
             hidden = true;
+            hide_sound.Play();
             Nurse_move.movements = NurseMovements.Patrol;
             //Haz cosas
         }
@@ -40,6 +43,7 @@ public class Hide : MonoBehaviour {
         hidden = false;
         player.SetActive(true);
         plant.SetActive(false);
+        hide_sound.Play();
         //Deja de hacer cosas
     }
 

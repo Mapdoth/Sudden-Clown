@@ -11,8 +11,8 @@ public class Box_script : MonoBehaviour {
     public float soundtime;
 
 	void Start () {
-		
-	}
+        current_time = 0.0f;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -25,7 +25,8 @@ public class Box_script : MonoBehaviour {
 
             if(current_time >= time_to_explode + soundtime)
             {
-                GetComponent<SphereCollider>().enabled = false;
+                Nurse_move.movements = NurseMovements.Patrol;
+                Destroy(transform.parent.gameObject);
             }
         }
 
