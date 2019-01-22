@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public enum NurseMovements { None, Patrol, FollowPlayer};
+public enum NurseMovements { None, Patrol, FollowPlayer, GoToSound};
 public class Nurse_move : MonoBehaviour {
 
     public Transform player;
     public Transform cone;
     public Transform nurse;
+    static public GameObject sound_emiter;
     static public NurseMovements movements;
 
     // Update is called once per frame
@@ -25,6 +26,13 @@ public class Nurse_move : MonoBehaviour {
             case NurseMovements.FollowPlayer:
                 GetComponent<NavMeshAgent>().destination = player.transform.position;
                 cone.transform.LookAt(player.transform);
+                break;
+
+            case NurseMovements.GoToSound:
+
+                GetComponent<NavMeshAgent>().destination = sound_emiter.transform.position;
+                
+
                 break;
         }
 
