@@ -227,7 +227,7 @@ Transform:
   m_LocalScale: {x: 9.52551, y: 1, z: 0.31268}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 102
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &10667721
 BoxCollider:
@@ -312,7 +312,7 @@ Transform:
   m_LocalScale: {x: 0.40578, y: 1, z: 2.35445}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 104
+  m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &20385004
 BoxCollider:
@@ -478,8 +478,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 32772427}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.18, y: 0, z: -20.29}
-  m_LocalScale: {x: 19.149054, y: 1, z: 0.31268}
+  m_LocalPosition: {x: 5.18, y: 0, z: -19.329}
+  m_LocalScale: {x: 19.149054, y: 1, z: 2.35}
   m_Children: []
   m_Father: {fileID: 1487396390}
   m_RootOrder: 8
@@ -652,7 +652,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 101
+  m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &65260750
 BoxCollider:
@@ -708,7 +708,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 65260748}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &94790382
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,8 +784,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
 --- !u!1 &99984058
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +954,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 128460932}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &133736619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,8 +1030,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
 --- !u!1 &146079636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,7 +1144,7 @@ Transform:
   m_LocalScale: {x: 9.87935, y: 1, z: 0.31268}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 103
+  m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &153583831
 BoxCollider:
@@ -1297,11 +1291,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 178131488}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &184968824 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4592309813904122, guid: 3177dd6c05d9c1941a2eafecdd0c6c8e,
-    type: 2}
-  m_PrefabInternal: {fileID: 905966735}
 --- !u!1 &186740682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1573,7 +1562,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 256994257}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &310912702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,8 +1746,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
 --- !u!1 &360686233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,7 +2370,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 96
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &449242561
 BoxCollider:
@@ -2440,7 +2426,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 449242559}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &457070432
 GameObject:
   m_ObjectHideFlags: 0
@@ -2517,8 +2502,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
 --- !u!1 &457774922
 GameObject:
   m_ObjectHideFlags: 0
@@ -2548,7 +2531,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 95
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &457774924
 BoxCollider:
@@ -3274,7 +3257,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &563443228
 GameObject:
@@ -3361,7 +3344,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 563443228}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &569285969
 GameObject:
   m_ObjectHideFlags: 0
@@ -3438,8 +3420,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
 --- !u!1 &576184214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3968,7 +3948,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 99
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &653590340
 BoxCollider:
@@ -4024,119 +4004,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 653590338}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &661920162
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 661920163}
-  - component: {fileID: 661920166}
-  - component: {fileID: 661920165}
-  - component: {fileID: 661920164}
-  - component: {fileID: 661920167}
-  - component: {fileID: 661920168}
-  m_Layer: 0
-  m_Name: Plant
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1
-  m_StaticEditorFlags: 8
-  m_IsActive: 1
---- !u!4 &661920163
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 661920162}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.91, y: 0, z: -34.46}
-  m_LocalScale: {x: 1, y: 1, z: 1.75}
-  m_Children: []
-  m_Father: {fileID: 1487396390}
-  m_RootOrder: 88
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &661920164
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 661920162}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &661920165
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 661920162}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &661920166
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 661920162}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &661920167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 661920162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!54 &661920168
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 661920162}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &669779241
 GameObject:
   m_ObjectHideFlags: 0
@@ -5172,7 +5039,7 @@ Transform:
   m_LocalScale: {x: 10.25358, y: 1, z: 0.31268}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 106
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &873964415
 BoxCollider:
@@ -5426,7 +5293,7 @@ Transform:
   m_LocalScale: {x: 9.882439, y: 1, z: 0.31268}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 105
+  m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &901237991
 BoxCollider:
@@ -5621,14 +5488,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3177dd6c05d9c1941a2eafecdd0c6c8e, type: 2}
   m_IsPrefabParent: 0
-<<<<<<< HEAD
 --- !u!4 &905966736 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4889489163754882, guid: 3177dd6c05d9c1941a2eafecdd0c6c8e,
     type: 2}
   m_PrefabInternal: {fileID: 905966735}
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
 --- !u!1 &916555052
 GameObject:
   m_ObjectHideFlags: 0
@@ -5991,7 +5855,7 @@ MonoBehaviour:
   range: 3
   player: {fileID: 890428729}
   cone: {fileID: 1207860125}
-  nurse: {fileID: 184968824}
+  nurse: {fileID: 0}
 --- !u!65 &947327592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6036,9 +5900,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1207860125}
-  - {fileID: 184968824}
+  - {fileID: 905966736}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &947327595
 MonoBehaviour:
@@ -6084,7 +5948,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.75}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 91
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &970426472
 BoxCollider:
@@ -6151,6 +6015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plant: {fileID: 457070432}
 --- !u!54 &970426476
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6282,7 +6147,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.75}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 109
+  m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1023967599
 MonoBehaviour:
@@ -6295,6 +6160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plant: {fileID: 1027897433}
 --- !u!65 &1023967600
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6309,7 +6175,6 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1023967601
 MeshRenderer:
-<<<<<<< HEAD
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -6398,22 +6263,20 @@ Transform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!212 &1027897435
 SpriteRenderer:
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1023967597}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_GameObject: {fileID: 1027897433}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6425,36 +6288,24 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1023967602
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1023967597}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &1023967603
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1023967597}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300120, guid: bcf329036db2add4397181df686775f8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1037756952
 GameObject:
   m_ObjectHideFlags: 0
@@ -6486,7 +6337,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.75}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 90
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1037756954
 BoxCollider:
@@ -6553,6 +6404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plant: {fileID: 569285969}
 --- !u!54 &1037756958
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6834,15 +6686,6 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: -15, y: -24, z: 0}
-    second:
-      m_TileIndex: 46
-      m_TileSpriteIndex: 46
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
   - first: {x: -13, y: -24, z: 0}
     second:
       m_TileIndex: 34
@@ -6964,15 +6807,6 @@ Tilemap:
     second:
       m_TileIndex: 74
       m_TileSpriteIndex: 74
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: -15, y: -23, z: 0}
-    second:
-      m_TileIndex: 47
-      m_TileSpriteIndex: 47
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -9268,9 +9102,9 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 558f0ae50cf8f9b4e91b00e79a56d581, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 1e0979f2e3a11504380843a2ce13d5fa, type: 2}
-  - m_RefCount: 9
+  - m_RefCount: 8
     m_Data: {fileID: 11400000, guid: 3ebdc6d95e4be074f8eb5c66c7329710, type: 2}
-  - m_RefCount: 9
+  - m_RefCount: 8
     m_Data: {fileID: 11400000, guid: 24e24230040fff946868e7cb12bfd858, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 4258ce2c53b2f8e4ea8991a40a861994, type: 2}
@@ -9439,9 +9273,9 @@ Tilemap:
     m_Data: {fileID: 21300068, guid: d6de5940b50dfd44e95f25fe1fad88e7, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 21300070, guid: d6de5940b50dfd44e95f25fe1fad88e7, type: 3}
-  - m_RefCount: 9
+  - m_RefCount: 8
     m_Data: {fileID: 21300102, guid: d6de5940b50dfd44e95f25fe1fad88e7, type: 3}
-  - m_RefCount: 9
+  - m_RefCount: 8
     m_Data: {fileID: 21300072, guid: d6de5940b50dfd44e95f25fe1fad88e7, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300122, guid: d6de5940b50dfd44e95f25fe1fad88e7, type: 3}
@@ -9518,7 +9352,7 @@ Tilemap:
   - m_RefCount: 3
     m_Data: {fileID: 21300130, guid: d6de5940b50dfd44e95f25fe1fad88e7, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 263
+  - m_RefCount: 261
     m_Data:
       e00: 1
       e01: 0
@@ -9537,7 +9371,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 263
+  - m_RefCount: 261
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 1.05e-43, g: 1.05e-43, b: 1.05e-43, a: 1.05e-43}
@@ -9878,7 +9712,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 94
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1164454954
 BoxCollider:
@@ -10049,7 +9883,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.75}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 93
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1194450787
 BoxCollider:
@@ -10116,7 +9950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   plant: {fileID: 0}
 --- !u!1 &1205415681
 GameObject:
@@ -10194,8 +10027,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
 --- !u!1 &1207860124
 GameObject:
   m_ObjectHideFlags: 0
@@ -10481,7 +10312,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1208321516}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &1255016715
 GameObject:
   m_ObjectHideFlags: 0
@@ -10558,8 +10388,6 @@ Transform:
   m_Father: {fileID: 310912703}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
 --- !u!1 &1256796752
 GameObject:
   m_ObjectHideFlags: 0
@@ -10744,8 +10572,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1298783547}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.699999, y: 0, z: -0.79}
-  m_LocalScale: {x: 12.14857, y: 1, z: 0.31268}
+  m_LocalPosition: {x: -28.699999, y: 0, z: 0.15634}
+  m_LocalScale: {x: 12.14857, y: 1, z: 2.34}
   m_Children: []
   m_Father: {fileID: 1487396390}
   m_RootOrder: 31
@@ -11414,8 +11242,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1403320979}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.22, y: -0, z: 5.25}
-  m_LocalScale: {x: 6.1381874, y: 1, z: 0.44648013}
+  m_LocalPosition: {x: -12.22, y: -0, z: 6.24}
+  m_LocalScale: {x: 6.1381874, y: 1, z: 2.35}
   m_Children: []
   m_Father: {fileID: 1487396390}
   m_RootOrder: 0
@@ -11687,7 +11515,6 @@ Transform:
   - {fileID: 1936137634}
   - {fileID: 1208321517}
   - {fileID: 577053075}
-  - {fileID: 661920163}
   - {fileID: 1952051222}
   - {fileID: 1037756953}
   - {fileID: 970426471}
@@ -11712,7 +11539,7 @@ Transform:
   - {fileID: 1577758391}
   - {fileID: 1830298132}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1492921945
 GameObject:
@@ -11745,7 +11572,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.75}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 108
+  m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1492921947
 MonoBehaviour:
@@ -11758,6 +11585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plant: {fileID: 94790382}
 --- !u!65 &1492921948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12261,7 +12089,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.75}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 110
+  m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1577758392
 MonoBehaviour:
@@ -12274,6 +12102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plant: {fileID: 1712850176}
 --- !u!65 &1577758393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12372,7 +12201,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 100
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1613896485
 BoxCollider:
@@ -25634,7 +25463,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-<<<<<<< HEAD
 --- !u!1 &1707310858
 GameObject:
   m_ObjectHideFlags: 0
@@ -25785,8 +25613,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of 502cf55... Merge branch 'master' of https://github.com/Mapdoth/GameJamCITM
 --- !u!1 &1719936448
 GameObject:
   m_ObjectHideFlags: 0
@@ -25812,8 +25638,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1719936448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.7, y: 0, z: -14.29}
-  m_LocalScale: {x: 12.148568, y: 1, z: 0.31268}
+  m_LocalPosition: {x: -28.7, y: 0, z: -13.349}
+  m_LocalScale: {x: 12.148568, y: 1, z: 2.35}
   m_Children: []
   m_Father: {fileID: 1487396390}
   m_RootOrder: 6
@@ -26232,7 +26058,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.75}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 92
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1786196263
 BoxCollider:
@@ -26299,6 +26125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plant: {fileID: 1205415681}
 --- !u!54 &1786196267
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26343,7 +26170,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 97
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1792868550
 BoxCollider:
@@ -26602,7 +26429,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.75}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 111
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1830298133
 MonoBehaviour:
@@ -26615,6 +26442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plant: {fileID: 1255016715}
 --- !u!65 &1830298134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26883,7 +26711,7 @@ Transform:
   m_LocalScale: {x: 0.40578, y: 1, z: 2.35445}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 107
+  m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1878850703
 BoxCollider:
@@ -26980,7 +26808,7 @@ Transform:
   - {fileID: 1082824722}
   - {fileID: 1703067077}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1931995080
 GameObject:
@@ -27268,7 +27096,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.75}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 89
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1952051223
 BoxCollider:
@@ -27335,6 +27163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5f19fcd6bf4c2f42a411ef36dcc816c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plant: {fileID: 133736619}
 --- !u!54 &1952051227
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27387,7 +27216,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4085506818908276, guid: aaaa2c4fd97cb834e8f38d50864973ed, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aaaa2c4fd97cb834e8f38d50864973ed, type: 2}
@@ -27846,7 +27675,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1487396390}
-  m_RootOrder: 98
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2001020750
 BoxCollider:
@@ -28603,6 +28432,10 @@ Prefab:
     - target: {fileID: 54783748013246058, guid: a586254f86b55f74999a72588ea30fda,
         type: 2}
       propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103780118544644, guid: a586254f86b55f74999a72588ea30fda, type: 2}
+      propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
