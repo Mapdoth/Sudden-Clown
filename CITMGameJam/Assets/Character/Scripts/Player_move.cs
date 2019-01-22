@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using XInputDotNetPure;
 using UnityEngine;
 
-public class Player_move : MonoBehaviour {
+public class Player_move : MonoBehaviour
+{
 
     bool playerIndexSet = false;
     PlayerIndex playerIndex;
@@ -11,20 +12,22 @@ public class Player_move : MonoBehaviour {
     GamePadState prevState;
 
     static public bool death = false;
+    private bool instance = true;
 
     //button things
     public float speed;
+    public GameObject clown_box;
     private Vector3 dir;
     private Animator animation;
     private SpriteRenderer flip;
 
-	void Start ()
+    void Start()
     {
         animation = GetComponentInChildren<Animator>();
         flip = GetComponentInChildren<SpriteRenderer>();
     }
 
-   void FixedUpdate()
+    void FixedUpdate()
     {
         GamePad.SetVibration(playerIndex, state.Triggers.Left, state.Triggers.Right);
     }
@@ -60,6 +63,17 @@ public class Player_move : MonoBehaviour {
             float x_motion = state.ThumbSticks.Left.X;
             float y_motion = state.ThumbSticks.Left.Y;
 
+            if (state.Triggers.Right != 0 && instance == true)
+            {
+                Instantiate(clown_box, transform.position, transform.rotation);
+                instance = false;
+            }
+
+            else if (state.Triggers.Right == 0)
+            {
+                instance = true;
+            }
+
             if (y_motion != 0)
             {
                 animation.SetBool("Walk", true);
@@ -90,9 +104,11 @@ public class Player_move : MonoBehaviour {
                 animation.SetBool("Walk", false);
             }
         }
-    else
-        animation.SetBool("Nurse_hit", true);
-        GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
-        Nurse_move.movements = NurseMovements.Patrol;
+        else
+        {
+            animation.SetBool("Nurse_hit", true);
+            GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+            Nurse_move.movements = NurseMovements.Patrol;
+        }
     }
 }
