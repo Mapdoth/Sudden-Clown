@@ -12,8 +12,10 @@ public class Player_move : MonoBehaviour {
 
     //button things
 
+    private bool instance = true;
 
     public float speed;
+    public GameObject clown_box;
     private Vector3 dir;
     private Animator animation;
     private SpriteRenderer flip;
@@ -56,7 +58,20 @@ public class Player_move : MonoBehaviour {
         dir = Vector3.zero;
 
         float x_motion = state.ThumbSticks.Left.X;
-        float y_motion = state.ThumbSticks.Left.Y;
+        float y_motion = state.ThumbSticks.Left .Y;
+
+
+
+        if(state.Triggers.Right != 0 && instance == true)
+        {
+            Instantiate(clown_box, transform.position, transform.rotation);
+            instance = false;
+        }
+
+        else if(state.Triggers.Right == 0)
+        {
+            instance = true;
+        }
 
         if (y_motion != 0)
         {
