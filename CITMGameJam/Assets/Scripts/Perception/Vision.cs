@@ -15,8 +15,6 @@ public class PerceptionEvent
 public class Vision : MonoBehaviour {
 
     public Camera frustum;
-    public LayerMask ray_mask;
-    public LayerMask mask;
 
     private List<GameObject> detected;
     private List<GameObject> detected_now;
@@ -33,7 +31,7 @@ public class Vision : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, frustum.farClipPlane, mask);
+        Collider[] colliders = Physics.OverlapSphere(transform.position, frustum.farClipPlane);
         Plane[] planes = GeometryUtility.CalculateFrustumPlanes(frustum);
 
         detected_now.Clear();
@@ -47,8 +45,9 @@ public class Vision : MonoBehaviour {
                 ray.direction = (col.transform.position - transform.position).normalized;
                 ray.origin = ray.GetPoint(frustum.nearClipPlane);
 
-                if (Physics.Raycast(ray, out hit, frustum.farClipPlane, ray_mask))
+                if (Physics.Raycast(ray, out hit, frustum.farClipPlane))
                 {
+                    if (hit.collider.gameObject.CompareTag("Player"))
                         detected_now.Add(col.gameObject);
                 }
             }
