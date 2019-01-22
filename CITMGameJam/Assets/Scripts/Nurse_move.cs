@@ -7,7 +7,7 @@ public enum NurseMovements { None, Patrol, FollowPlayer, GoToSound};
 public class Nurse_move : MonoBehaviour {
 
     public float range = 3.0f;
-    public Transform player;
+    public GameObject player;
     public Transform cone;
     public Transform nurse;
     static public GameObject sound_emiter;
@@ -42,8 +42,6 @@ public class Nurse_move : MonoBehaviour {
 
             case NurseMovements.GoToSound:
                 GetComponent<NavMeshAgent>().destination = sound_emiter.transform.position;
-
-                Debug.Log("%");
 
                 if (GetComponent<NavMeshAgent>().velocity.Equals(Vector3.zero))
                 {
@@ -87,10 +85,11 @@ public class Nurse_move : MonoBehaviour {
             attacking = false;
         }
 
-        if(attacking)
+        if(attacking && !Player_move.death)
         {
             animator.SetBool("isAttacking", true);
             GetComponent<NavMeshAgent>().destination = transform.position;
+            Player_move.death = true;
         }
         else
         {
