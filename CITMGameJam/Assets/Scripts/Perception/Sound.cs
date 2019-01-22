@@ -4,16 +4,6 @@ using UnityEngine;
 
 public class Sound : MonoBehaviour {
 
-    public class PerceptionEvent
-    {
-        public enum senses { VISION, SOUND };
-        public enum types { NEW, LOST };
-
-        public GameObject go;
-        public senses sense;
-        public types type;
-    }
-
     // Use this for initialization
     void Start () {
 		
@@ -22,7 +12,7 @@ public class Sound : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        Collider[] hitColliders = Physics.OverlapSphere(gameObject.transform.position, GetComponent<SphereCollider>().radius);
+        Collider[] hitColliders = Physics.OverlapSphere(gameObject.transform.position, GetComponentInParent<BoxCollider>().size.z/2);
         int i = 0;
         while (i < hitColliders.Length)
         {
