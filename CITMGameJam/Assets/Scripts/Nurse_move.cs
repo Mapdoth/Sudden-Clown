@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public enum NurseMovements { None, Patrol, FollowPlayer, GoToSound};
+public enum NurseMovements { None, Patrol, FollowPlayer, GoToSound, GoHelp};
 public class Nurse_move : MonoBehaviour {
 
     public float range = 3.0f;
@@ -18,14 +18,17 @@ public class Nurse_move : MonoBehaviour {
     private SpriteRenderer flip;
     private bool attacking;
 
+    static public Vector3 posPlayerAtack;
     public float timerDeath = 1.0f;
     private float time = 0.0f;
 
+    private NavMeshAgent nav;
     private void Start()
     {
         aux_position = transform.position;
         animator = GetComponentInChildren<Animator>();
         flip = GetComponentInChildren<SpriteRenderer>();
+        nav = GetComponent<NavMeshAgent>();
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -37,15 +40,19 @@ public class Nurse_move : MonoBehaviour {
             case NurseMovements.Patrol:
                 cone.transform.localRotation = new Quaternion(0.0f,0.0f,0.0f,0.0f);
                 break;
-            case NurseMovements.FollowPlayer:   
-                GetComponent<NavMeshAgent>().destination = player.transform.position;
+            case NurseMovements.FollowPlayer:
+                nav.destination = player.transform.position;
                 cone.transform.LookAt(player.transform);
                 break;
-
+            case NurseMovements.GoHelp:
+                nav.destination = posPlayerAtack;
+                if (!nav.hasPath || nav.velocity.Equals(Vector3.zero))
+                    movements = NurseMovements.Patrol; 
+                break;
             case NurseMovements.GoToSound:
-                GetComponent<NavMeshAgent>().destination = sound_emiter.transform.position;
+                nav.destination = sound_emiter.transform.position;
 
-                if (GetComponent<NavMeshAgent>().velocity.Equals(Vector3.zero))
+                if (nav.velocity.Equals(Vector3.zero))
                 {
                     movements = NurseMovements.Patrol;
                 }
