@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using XInputDotNetPure;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player_move : MonoBehaviour
 {
@@ -121,6 +122,10 @@ public class Player_move : MonoBehaviour
                 var tempColor = fadeBlack.color;
                 tempColor.a = (tempColor.a + 0.01f);
                 fadeBlack.color = tempColor;
+                if(tempColor.a >= 1.0f)
+                {
+                    SceneManager.LoadScene(0);
+                }
             }
         }
     }
