@@ -48,7 +48,6 @@ public class Nurse_move : MonoBehaviour {
                 if (GetComponent<NavMeshAgent>().velocity.Equals(Vector3.zero))
                 {
                     movements = NurseMovements.Patrol;
-                    sound_emiter.SetActive(false);
                 }
 
 
@@ -75,8 +74,5 @@ public class Nurse_move : MonoBehaviour {
             flip.flipX = true;
             aux_position = transform.position;
         }
-
-        //PLAYER ATTACK
-
     }
 }
