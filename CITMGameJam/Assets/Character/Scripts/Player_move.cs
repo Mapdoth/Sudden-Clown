@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using XInputDotNetPure;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_move : MonoBehaviour
 {
@@ -14,17 +15,21 @@ public class Player_move : MonoBehaviour
     static public bool death = false;
     private bool instance = true;
 
+    public Image fadeBlack;
     //button things
     public float speed;
     public GameObject clown_box;
     private Vector3 dir;
     private Animator animation;
     private SpriteRenderer flip;
+    public float timerDeath = 1.0f;
+    private float time = 0.0f;
 
     void Start()
     {
         animation = GetComponentInChildren<Animator>();
         flip = GetComponentInChildren<SpriteRenderer>();
+        fadeBlack.color = new Color(fadeBlack.color.r, fadeBlack.color.g, fadeBlack.color.b, 0);
     }
 
     void FixedUpdate()
@@ -103,12 +108,20 @@ public class Player_move : MonoBehaviour
             {
                 animation.SetBool("Walk", false);
             }
+            time = Time.time;
         }
         else
         {
             animation.SetBool("Nurse_hit", true);
             GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
             Nurse_move.movements = NurseMovements.Patrol;
+
+            if (Time.time >= (time + timerDeath))
+            {
+                var tempColor = fadeBlack.color;
+                tempColor.a = (tempColor.a + 0.01f);
+                fadeBlack.color = tempColor;
+            }
         }
     }
 }
