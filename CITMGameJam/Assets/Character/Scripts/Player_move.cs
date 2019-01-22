@@ -3,104 +3,112 @@ using System.Collections.Generic;
 using XInputDotNetPure;
 using UnityEngine;
 
-public class Player_move : MonoBehaviour {
+public class Player_move : MonoBehaviour
+{
 
     bool playerIndexSet = false;
     PlayerIndex playerIndex;
     GamePadState state;
     GamePadState prevState;
 
-    //button things
-
+    static public bool death = false;
     private bool instance = true;
 
+    //button things
     public float speed;
     public GameObject clown_box;
     private Vector3 dir;
     private Animator animation;
     private SpriteRenderer flip;
 
-	void Start ()
+    void Start()
     {
         animation = GetComponentInChildren<Animator>();
         flip = GetComponentInChildren<SpriteRenderer>();
     }
 
-   void FixedUpdate()
+    void FixedUpdate()
     {
         GamePad.SetVibration(playerIndex, state.Triggers.Left, state.Triggers.Right);
     }
 
     // Update is called once per frame
-    void Update() {
-
-        // Find a PlayerIndex, for a single player game
-        // Will find the first controller that is connected ans use it
-        if (!playerIndexSet || !prevState.IsConnected)
+    void Update()
+    {
+        if (!death)
         {
-            for (int i = 0; i < 4; ++i)
+            // Find a PlayerIndex, for a single player game
+            // Will find the first controller that is connected ans use it
+            if (!playerIndexSet || !prevState.IsConnected)
             {
-                PlayerIndex testPlayerIndex = (PlayerIndex)i;
-                GamePadState testState = GamePad.GetState(testPlayerIndex);
-                if (testState.IsConnected)
+                for (int i = 0; i < 4; ++i)
                 {
-                    Debug.Log(string.Format("GamePad found {0}", testPlayerIndex));
-                    playerIndex = testPlayerIndex;
-                    playerIndexSet = true;
+                    PlayerIndex testPlayerIndex = (PlayerIndex)i;
+                    GamePadState testState = GamePad.GetState(testPlayerIndex);
+                    if (testState.IsConnected)
+                    {
+                        Debug.Log(string.Format("GamePad found {0}", testPlayerIndex));
+                        playerIndex = testPlayerIndex;
+                        playerIndexSet = true;
+                    }
                 }
             }
-        }
 
-        prevState = state;
-        state = GamePad.GetState(playerIndex);
-        //button things
+            prevState = state;
+            state = GamePad.GetState(playerIndex);
+            //button things
 
-        dir = Vector3.zero;
+            dir = Vector3.zero;
 
-        float x_motion = state.ThumbSticks.Left.X;
-        float y_motion = state.ThumbSticks.Left .Y;
+            float x_motion = state.ThumbSticks.Left.X;
+            float y_motion = state.ThumbSticks.Left.Y;
 
+            if (state.Triggers.Right != 0 && instance == true)
+            {
+                Instantiate(clown_box, transform.position, transform.rotation);
+                instance = false;
+            }
 
+            else if (state.Triggers.Right == 0)
+            {
+                instance = true;
+            }
 
-        if(state.Triggers.Right != 0 && instance == true)
-        {
-            Instantiate(clown_box, transform.position, transform.rotation);
-            instance = false;
-        }
+            if (y_motion != 0)
+            {
+                animation.SetBool("Walk", true);
 
-        else if(state.Triggers.Right == 0)
-        {
-            instance = true;
-        }
+            }
 
-        if (y_motion != 0)
-        {
-            animation.SetBool("Walk", true);
-       
-        }
+            if (x_motion < 0)
+            {
+                flip.flipX = true;
+                animation.SetBool("Walk", true);
+            }
 
-        if (x_motion < 0)
-        {
-            flip.flipX = true;
-            animation.SetBool("Walk", true);
-        }
+            if (x_motion > 0)
+            {
+                flip.flipX = false;
+                animation.SetBool("Walk", true);
+            }
 
-        if (x_motion > 0)
-        {
-            flip.flipX = false;
-            animation.SetBool("Walk", true);
-        }
+            dir.x = x_motion;
+            dir.z = y_motion;
 
-        dir.x = x_motion;
-        dir.z = y_motion;
-
-        if (dir != Vector3.zero)
-        {
-            transform.Translate(dir.normalized * speed);
+            if (dir != Vector3.zero)
+            {
+                transform.Translate(dir.normalized * speed);
+            }
+            else
+            {
+                animation.SetBool("Walk", false);
+            }
         }
         else
         {
-            animation.SetBool("Walk", false);
+            animation.SetBool("Nurse_hit", true);
+            GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+            Nurse_move.movements = NurseMovements.Patrol;
         }
     }
 }
