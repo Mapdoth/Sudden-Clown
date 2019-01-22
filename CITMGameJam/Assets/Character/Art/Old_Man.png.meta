@@ -1,47 +1,44 @@
 fileFormatVersion: 2
-guid: 8e80955384edf4142ac551994dca3d69
+guid: 3e4e17d839cb7ae49b8524b6d0b3d42a
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Clown_0
-    21300002: Clown_1
-    21300004: Clown_2
-    21300006: Clown_3
-    21300008: Clown_4
-    21300010: Clown_5
-    21300012: Clown_6
-    21300014: Clown_7
-    21300016: Clown_8
-    21300018: Clown_9
-    21300020: Clown_10
-    21300022: Clown_11
-    21300024: Clown_12
-    21300026: Clown_13
-    21300028: Clown_14
-    21300030: Clown_15
-    21300032: Clown_16
-    21300034: Clown_17
-    21300036: Clown_18
-    21300038: Clown_19
-    21300040: Clown_20
-    21300042: Clown_21
-    21300044: Clown_22
-    21300046: Clown_23
-    21300048: Clown_24
-    21300050: Clown_25
-    21300052: Clown_26
-    21300054: Clown_27
-    21300056: Clown_28
-    21300058: Clown_29
-    21300060: Clown_30
-    21300062: Clown_31
-    21300064: Clown_32
-    21300066: Clown_33
-    21300068: Clown_34
-    21300070: Clown_35
-    21300072: Clown_36
-    21300074: Clown_37
-    21300076: Clown_38
-    21300078: Clown_39
+    21300000: Old_Man_0
+    21300002: Old_Man_1
+    21300004: Old_Man_2
+    21300006: Old_Man_3
+    21300008: Old_Man_4
+    21300010: Old_Man_5
+    21300012: Old_Man_6
+    21300014: Old_Man_7
+    21300016: Old_Man_8
+    21300018: Old_Man_9
+    21300020: Old_Man_10
+    21300022: Old_Man_11
+    21300024: Old_Man_12
+    21300026: Old_Man_13
+    21300028: Old_Man_14
+    21300030: Old_Man_15
+    21300032: Old_Man_16
+    21300034: Old_Man_17
+    21300036: Old_Man_18
+    21300038: Old_Man_19
+    21300040: Old_Man_20
+    21300042: Old_Man_21
+    21300044: Old_Man_22
+    21300046: Old_Man_23
+    21300048: Old_Man_24
+    21300050: Old_Man_25
+    21300052: Old_Man_26
+    21300054: Old_Man_27
+    21300056: Old_Man_28
+    21300058: Old_Man_29
+    21300060: Old_Man_30
+    21300062: Old_Man_31
+    21300064: Old_Man_32
+    21300066: Old_Man_33
+    21300068: Old_Man_34
+    21300070: Old_Man_35
+    21300072: Old_Man_36
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -83,9 +80,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -122,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clown_0
+      name: Old_Man_0
       rect:
         serializedVersion: 2
         x: 1
-        y: 456
-        width: 58
-        height: 55
+        y: 207
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,19 +133,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e40c69961b347f429d2820f73fb3e45
+      spriteID: f54a2cae95b4b8446840577a8c09ad92
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_1
+      name: Old_Man_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 456
-        width: 58
-        height: 55
+        x: 56
+        y: 207
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,19 +153,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0cbfc71c6313ab40aed47a1d12b4ebe
+      spriteID: 4e63a69525f42c242b31a2c94685b5f4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_2
+      name: Old_Man_2
       rect:
         serializedVersion: 2
-        x: 119
-        y: 456
-        width: 58
-        height: 55
+        x: 111
+        y: 207
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,19 +173,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40d63ab9fc642ff48a3da61de0700cef
+      spriteID: 569eb74e1d915de4c88e206daf38601c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_3
+      name: Old_Man_3
       rect:
         serializedVersion: 2
-        x: 178
-        y: 456
-        width: 58
-        height: 55
+        x: 166
+        y: 207
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,19 +193,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be48cff4c856037478f59129c73bcf1a
+      spriteID: 65dcd1e2ac6f9ff49b5905d122491a38
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_4
+      name: Old_Man_4
       rect:
         serializedVersion: 2
-        x: 237
-        y: 456
-        width: 58
-        height: 55
+        x: 221
+        y: 207
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,19 +213,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 150e469f25782394380a3db80820e716
+      spriteID: a5eaa18f92efa7a44ac05d8bca3e1b23
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_5
+      name: Old_Man_5
       rect:
         serializedVersion: 2
-        x: 296
-        y: 456
-        width: 58
-        height: 55
+        x: 276
+        y: 207
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,19 +233,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8dac531b24aaf4981c4d6c4c756ebd
+      spriteID: 65c711a719059904aa2cb441b633056e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_6
+      name: Old_Man_6
       rect:
         serializedVersion: 2
-        x: 355
-        y: 456
-        width: 58
-        height: 55
+        x: 331
+        y: 207
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,19 +253,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed685b9f4e1b2f94d8d1d897e0b5266a
+      spriteID: 025b518a0af4ab54c9246ac2fd4c9034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_7
+      name: Old_Man_7
       rect:
         serializedVersion: 2
-        x: 414
-        y: 456
-        width: 58
-        height: 55
+        x: 386
+        y: 207
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,19 +273,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b2c4e040875f04baa5e1057b63c965
+      spriteID: bb9b1e07cdb052b4b9a7920497c59cf6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_8
+      name: Old_Man_8
       rect:
         serializedVersion: 2
-        x: 1
-        y: 400
-        width: 58
-        height: 55
+        x: 441
+        y: 207
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,159 +293,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cec17a1c59c345e4aac5c5fcabc0da3e
+      spriteID: 4a1b218877cbd3046817bda7133bab51
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_9
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 400
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21347f1e57f6fd1428b52d2c6ba76a67
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_10
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 400
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3d6dae879051ef42b9f5c80123c0f23
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_11
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 400
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c9edbc341760b3419b14b14c85e32a2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_12
-      rect:
-        serializedVersion: 2
-        x: 237
-        y: 400
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 405b19daed24d5a4a81ca16eafa880c6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_13
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 400
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70e9284423925d7459617dfe597bed2c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_14
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 400
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d3d51891ec97cb4bbb5f4580028f11c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_15
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 400
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5275bb30d789a04c922013716dc5d35
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_16
+      name: Old_Man_9
       rect:
         serializedVersion: 2
         x: 1
-        y: 344
-        width: 58
-        height: 55
+        y: 158
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,19 +313,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdb17473d556a8640b6c15ecc19f0288
+      spriteID: 4c9cfcf89c9b43e4b9649c9187b752d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_17
+      name: Old_Man_10
       rect:
         serializedVersion: 2
-        x: 60
-        y: 344
-        width: 58
-        height: 55
+        x: 56
+        y: 158
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,19 +333,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7558d4739b0b694e87698ce91e651fa
+      spriteID: e90d22416b6021a42bb97177b0712854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_18
+      name: Old_Man_11
       rect:
         serializedVersion: 2
-        x: 119
-        y: 344
-        width: 58
-        height: 55
+        x: 111
+        y: 158
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,19 +353,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 630c69bff908c5e4a833b8875ac29754
+      spriteID: dd2e0624ee4785e43bfa5162b00f6e9b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_19
+      name: Old_Man_12
       rect:
         serializedVersion: 2
-        x: 178
-        y: 344
-        width: 58
-        height: 55
+        x: 166
+        y: 158
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,19 +373,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd796323bfe8177488586397a32c30b6
+      spriteID: 4ce8e459ee06b064988fac2d06288432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_20
+      name: Old_Man_13
       rect:
         serializedVersion: 2
-        x: 237
-        y: 344
-        width: 58
-        height: 55
+        x: 221
+        y: 158
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,19 +393,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3081f56b90add674e9e42c11b88ddd94
+      spriteID: 6c61625a86e6fd940b0697ea3c4323f4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_21
+      name: Old_Man_14
       rect:
         serializedVersion: 2
-        x: 296
-        y: 344
-        width: 58
-        height: 55
+        x: 276
+        y: 158
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,19 +413,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aaefdd72ff2bdd45a412b35688182f4
+      spriteID: db3e11ba4a45b274e9722f3608acdf52
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_22
+      name: Old_Man_15
       rect:
         serializedVersion: 2
-        x: 355
-        y: 344
-        width: 58
-        height: 55
+        x: 331
+        y: 158
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,19 +433,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25abcce2508e1048b5db79e86e625cb
+      spriteID: ef8c56218fbc2224086ed22009e17c12
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_23
+      name: Old_Man_16
       rect:
         serializedVersion: 2
-        x: 414
-        y: 344
-        width: 58
-        height: 55
+        x: 386
+        y: 158
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,19 +453,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8818bb45826347648af23527bd08f86a
+      spriteID: e5289137a0c6302428dc5bcc5aebb7da
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_24
+      name: Old_Man_17
       rect:
         serializedVersion: 2
-        x: 1
-        y: 288
-        width: 58
-        height: 55
+        x: 441
+        y: 158
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,159 +473,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f99500ad22f993418edf4fbb6b5b1fe
+      spriteID: 79f80bf6669837845a9e4f87fae64be6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_25
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 288
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2edf4b4a5098d594a9fd5bdb7a0570d1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_26
-      rect:
-        serializedVersion: 2
-        x: 119
-        y: 288
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e73fecf7d0dfeb149b9d303e797316b8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_27
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 288
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4f6268c5c3094f43906a967533bac94
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_28
-      rect:
-        serializedVersion: 2
-        x: 237
-        y: 288
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11f0db509b48f2047841bcfcd0a5b4c5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_29
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 288
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 036cc71d13e3b8e4fa84a83f0480c67f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_30
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 288
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49c552e279031cd48b5e3ec45181e304
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_31
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 288
-        width: 58
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ecc45bcb3f801b48965f5752b841b34
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clown_32
+      name: Old_Man_18
       rect:
         serializedVersion: 2
         x: 1
-        y: 232
-        width: 58
-        height: 55
+        y: 109
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,19 +493,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ef90f78895842349b72d648975fc605
+      spriteID: 3d4585938d6306846a9d28e73a4298c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_33
+      name: Old_Man_19
       rect:
         serializedVersion: 2
-        x: 60
-        y: 232
-        width: 58
-        height: 55
+        x: 56
+        y: 109
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,19 +513,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f7ca4b0f7eabaa4a9a802e5c780b998
+      spriteID: 96af8bc12b4470e4899e8b5f35e4ef66
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_34
+      name: Old_Man_20
       rect:
         serializedVersion: 2
-        x: 119
-        y: 232
-        width: 58
-        height: 55
+        x: 111
+        y: 109
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -816,19 +533,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b1aa1b2ca6da948bfed385958edd7d
+      spriteID: 19c74ccc40904034e85e51ced136e4a3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_35
+      name: Old_Man_21
       rect:
         serializedVersion: 2
-        x: 178
-        y: 232
-        width: 58
-        height: 55
+        x: 166
+        y: 109
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -836,19 +553,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4594e45806754e419cff8b2dc7f3c57
+      spriteID: 805e7abaca130d0448329be58edf4adb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_36
+      name: Old_Man_22
       rect:
         serializedVersion: 2
-        x: 237
-        y: 232
-        width: 58
-        height: 55
+        x: 221
+        y: 109
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -856,19 +573,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42cfa0f321116d848a5e259a0d1bf5d8
+      spriteID: bb709ff5ba2c9e5438d71582191c1234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_37
+      name: Old_Man_23
       rect:
         serializedVersion: 2
-        x: 296
-        y: 232
-        width: 58
-        height: 55
+        x: 276
+        y: 109
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -876,19 +593,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5694937e1ceefd842b24b74fceddbc08
+      spriteID: 552f825701774134f980ba0ca7cab65f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_38
+      name: Old_Man_24
       rect:
         serializedVersion: 2
-        x: 355
-        y: 232
-        width: 58
-        height: 55
+        x: 331
+        y: 109
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -896,19 +613,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a4201c08aabea4428f6e71ea9931ea6
+      spriteID: 0ccb25e5a7cfb6a4cb3c41defb827fe7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clown_39
+      name: Old_Man_25
       rect:
         serializedVersion: 2
-        x: 414
-        y: 232
-        width: 58
-        height: 55
+        x: 386
+        y: 109
+        width: 54
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -916,7 +633,227 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edfabb91c9e2bab46aaf92c1d78da97c
+      spriteID: 128688856dc7a2140989c9e89828414c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_26
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 109
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26851b68ebce7e147be981cccf13a7f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 60
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1ec608f5807554181ef54739f09c18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 60
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c8cea132608d646ad380590d8b4c16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_29
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 60
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e18908b6b37be44b5c0439f8a23ef4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_30
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 60
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa966d2ca2047ac4fa831f7eaa0456cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 60
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97fbcd4586ca284f9dd91e6bd31e783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 60
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9bb26926a22554bbf619a9e0fa3e5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_33
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 60
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8527c105eac1a47a1b5a0f33dfd253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_34
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 60
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9671248515f1ed94e87c53ae5e4508b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_35
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 60
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b6b65c9cd17fd4b8b054d8481e2d86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Man_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 11
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcfd0ad57342c144b8124e3bb593555
       vertices: []
       indices: 
       edges: []
@@ -924,7 +861,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ff9faeca0247adc478d83787f44f5e1a
+    spriteID: e5eb36a7219ff55469db4ee7ffecae0a
     vertices: []
     indices: 
     edges: []
