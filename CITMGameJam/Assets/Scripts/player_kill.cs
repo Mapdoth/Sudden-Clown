@@ -11,10 +11,12 @@ public class player_kill : MonoBehaviour
     public float timerDeath = 1.0f;
     private float time = 0.0f;
     private Animator animator;
+    private AudioSource player_death;
 
     // Use this for initialization
     void Start()
     {
+        //player_death = GetComponentInChildern<AudioSource>();
         animator = GetComponentInChildren<Animator>();
     }
 
@@ -39,6 +41,7 @@ public class player_kill : MonoBehaviour
             animator.SetBool("isAttacking", true);
             GetComponent<NavMeshAgent>().destination = transform.position;
             Player_move.death = true;
+            //player_death.Play();
         }
         else
         {
