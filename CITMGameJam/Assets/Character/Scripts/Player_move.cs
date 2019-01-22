@@ -16,6 +16,9 @@ public class Player_move : MonoBehaviour
     static public bool death = false;
     private bool instance = true;
 
+    public int count_box = 3;
+    public Text text_box;
+
     public Image fadeBlack;
     //button things
     public float speed;
@@ -72,8 +75,13 @@ public class Player_move : MonoBehaviour
 
             if (state.Triggers.Right != 0 && instance == true)
             {
-                Instantiate(clown_box, new Vector3(transform.position.x, 0, transform.position.z), Quaternion.identity);
-                instance = false;
+                if (count_box > 0)
+                {
+                    Instantiate(clown_box, new Vector3(transform.position.x, 0, transform.position.z), Quaternion.identity);
+                    count_box--;
+                    text_box.text = count_box.ToString();
+                    instance = false;
+                }
             }
 
             else if (state.Triggers.Right == 0)
