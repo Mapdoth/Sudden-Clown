@@ -9,7 +9,7 @@ public class Surprise : MonoBehaviour {
     PlayerIndex playerIndex;
     GamePadState state;
     GamePadState prevState;
-
+    public AudioSource attack;
     //button things
 
 
@@ -52,24 +52,28 @@ public class Surprise : MonoBehaviour {
 
         if (key_react == 0 && prevState.Buttons.X == ButtonState.Pressed)
         {
+            attack.Play();
             atacking = true;
             animation.SetBool("Attacking", atacking);
         }
 
         if (key_react == 1 && prevState.Buttons.Y == ButtonState.Pressed)
         {
+            attack.Play();
             atacking = true;
             animation.SetBool("Attacking", atacking);
         }
 
         if (key_react == 2 && prevState.Buttons.A == ButtonState.Pressed)
         {
+            attack.Play();
             atacking = true;
             animation.SetBool("Attacking", atacking);
         }
 
         if (key_react == 0 && prevState.Buttons.B == ButtonState.Pressed)
         {
+            attack.Play();
             atacking = true;
             animation.SetBool("Attacking", atacking);
         }
