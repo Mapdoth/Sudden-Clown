@@ -14,6 +14,7 @@ public class Player_move : MonoBehaviour
     GamePadState prevState;
 
     static public bool death = false;
+    public bool death2 = false;
     private bool instance = true;
 
     public int count_box = 3;
@@ -124,6 +125,7 @@ public class Player_move : MonoBehaviour
             Debug.Log(":::::");
         else if (death)
         {
+            death = death2;
             animation.SetBool("Nurse_hit", true);
             GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
             Nurse_move.movements = NurseMovements.Patrol;
