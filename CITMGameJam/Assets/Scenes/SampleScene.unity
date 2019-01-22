@@ -289,16 +289,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 415572630}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &451822172 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1885482065000610, guid: c45b44c1fe8afa6418655a1d4c97991c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1849929017}
---- !u!4 &451822173 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4940472062494894, guid: c45b44c1fe8afa6418655a1d4c97991c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1849929017}
 --- !u!1 &460668885
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e2782f645e8073459707d849ffe61ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 451822172}
+  player: {fileID: 1504051772}
   offset: {x: 1, y: 0, z: 1}
   SmoothSpeed: 0.125
 --- !u!20 &519420031
@@ -1604,7 +1594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07627f35e9fa34cb5dcb96cbedb3a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 451822173}
+  player: {fileID: 0}
   cone: {fileID: 1207860125}
   nurse: {fileID: 1815510252}
 --- !u!65 &947327592
@@ -5064,6 +5054,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1504051772 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1238021830015444, guid: c45b44c1fe8afa6418655a1d4c97991c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1849929017}
 --- !u!1 &1589789928
 GameObject:
   m_ObjectHideFlags: 0
@@ -18489,6 +18484,10 @@ Prefab:
     - target: {fileID: 4940472062494894, guid: c45b44c1fe8afa6418655a1d4c97991c, type: 2}
       propertyPath: m_LocalPosition.z
       value: 6.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4795641398386542, guid: c45b44c1fe8afa6418655a1d4c97991c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 6.29
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 61374070069357054, guid: c45b44c1fe8afa6418655a1d4c97991c, type: 2}
