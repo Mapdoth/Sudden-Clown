@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.1
+  clown_box: {fileID: 1748464556786834, guid: eae16e1910271c14cbd0aa207f84187c, type: 2}
 --- !u!114 &114873584446389682
 MonoBehaviour:
   m_ObjectHideFlags: 1

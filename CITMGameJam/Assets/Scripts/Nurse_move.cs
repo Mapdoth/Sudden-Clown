@@ -18,6 +18,8 @@ public class Nurse_move : MonoBehaviour {
     private SpriteRenderer flip;
     private bool attacking;
 
+    public float timerDeath = 1.0f;
+    private float time = 0.0f;
 
     private void Start()
     {
@@ -78,14 +80,18 @@ public class Nurse_move : MonoBehaviour {
         float distance = (transform.position - player.transform.position).magnitude;
         if (distance <= range)
         {
-            attacking = true;
+            if (!attacking)
+            {
+                attacking = true;
+                time = Time.time;
+            }
         }
         else
         {
             attacking = false;
         }
 
-        if(attacking && !Player_move.death)
+        if(attacking && !Player_move.death && Time.time >= (time + timerDeath))
         {
             animator.SetBool("isAttacking", true);
             GetComponent<NavMeshAgent>().destination = transform.position;
