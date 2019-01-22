@@ -33,7 +33,8 @@ public class Hide : MonoBehaviour {
             plant.SetActive(true);
             hidden = true;
             hide_sound.Play();
-            Nurse_move.movements = NurseMovements.Patrol;
+            if(Nurse_move.movements != NurseMovements.GoHelp)
+                Nurse_move.movements = NurseMovements.Patrol;
             //Haz cosas
         }
     }
