@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using XInputDotNetPure;
 using UnityEngine;
 
@@ -15,6 +16,8 @@ public class old_man_kill : MonoBehaviour {
    public int key_react = -1;
    public bool player_atacking = false;
 
+    static private int count_kills;
+    public Text text_kills;
 
     public GameObject player;
     public GameObject x_but;
@@ -93,31 +96,41 @@ public class old_man_kill : MonoBehaviour {
 
         }
 
-        if (state.Buttons.X == ButtonState.Pressed && key_react == 0)
+        if (state.Buttons.X == ButtonState.Pressed && key_react == 0 && player_atacking == false)
         {
             player_atacking = true;
             player_animation.SetBool("Attacking", player_atacking);
+            count_kills++;
+            text_kills.text = count_kills.ToString();
+            attack_sound.Play();
+
+        }
+
+        if (state.Buttons.Y == ButtonState.Pressed && key_react == 1 && player_atacking == false)
+        {
+            player_atacking = true;
+            player_animation.SetBool("Attacking", player_atacking);
+            count_kills++;
+            text_kills.text = count_kills.ToString();
+            attack_sound.Play();
+
+        }
+
+        if (state.Buttons.A == ButtonState.Pressed && key_react == 2 && player_atacking == false)
+        {
+            player_atacking = true;
+            player_animation.SetBool("Attacking", player_atacking);
+            count_kills++;
+            text_kills.text = count_kills.ToString();
             attack_sound.Play();
         }
 
-        if (state.Buttons.Y == ButtonState.Pressed && key_react == 1)
+        if (state.Buttons.B == ButtonState.Pressed && key_react == 3 && player_atacking == false)
         {
             player_atacking = true;
             player_animation.SetBool("Attacking", player_atacking);
-            attack_sound.Play();
-        }
-
-        if (state.Buttons.A == ButtonState.Pressed && key_react == 2)
-        {
-            player_atacking = true;
-            player_animation.SetBool("Attacking", player_atacking);
-            attack_sound.Play();
-        }
-
-        if (state.Buttons.B == ButtonState.Pressed && key_react == 3)
-        {
-            player_atacking = true;
-            player_animation.SetBool("Attacking", player_atacking);
+            count_kills++;
+            text_kills.text = count_kills.ToString();
             attack_sound.Play();
         }
 

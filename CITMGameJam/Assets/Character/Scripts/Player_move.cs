@@ -42,7 +42,7 @@ public class Player_move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!death)
+        if (!death && !animation.GetCurrentAnimatorStateInfo(0).IsName("clown_attack"))
         {
             // Find a PlayerIndex, for a single player game
             // Will find the first controller that is connected ans use it
@@ -112,7 +112,9 @@ public class Player_move : MonoBehaviour
             }
             time = Time.time;
         }
-        else
+        else if (animation.GetBool("Attacking"))
+            Debug.Log(":::::");
+        else if (death)
         {
             animation.SetBool("Nurse_hit", true);
             GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
@@ -123,7 +125,7 @@ public class Player_move : MonoBehaviour
                 var tempColor = fadeBlack.color;
                 tempColor.a = (tempColor.a + 0.01f);
                 fadeBlack.color = tempColor;
-                if(tempColor.a >= 1.0f)
+                if (tempColor.a >= 1.0f)
                 {
                     SceneManager.LoadScene(0);
                 }
