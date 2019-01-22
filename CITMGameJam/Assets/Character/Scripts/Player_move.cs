@@ -70,7 +70,7 @@ public class Player_move : MonoBehaviour
 
             if (state.Triggers.Right != 0 && instance == true)
             {
-                Instantiate(clown_box, transform.position, transform.rotation);
+                Instantiate(clown_box, new Vector3(transform.position.x, 0, transform.position.z), Quaternion.identity);
                 instance = false;
             }
 
