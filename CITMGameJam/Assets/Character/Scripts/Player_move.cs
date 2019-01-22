@@ -28,6 +28,7 @@ public class Player_move : MonoBehaviour
 
     void Start()
     {
+        death = false;
         animation = GetComponentInChildren<Animator>();
         flip = GetComponentInChildren<SpriteRenderer>();
         fadeBlack.color = new Color(fadeBlack.color.r, fadeBlack.color.g, fadeBlack.color.b, 0);

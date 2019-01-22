@@ -30,6 +30,7 @@ public class Hide : MonoBehaviour {
             col.gameObject.SetActive(false);
             plant.SetActive(true);
             hidden = true;
+            Nurse_move.movements = NurseMovements.Patrol;
             //Haz cosas
         }
     }
