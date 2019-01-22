@@ -8,7 +8,7 @@ using BansheeGz.BGSpline.Curve;
 public class Patrol : MonoBehaviour {
 
     public BGCcMath path;
-    public float accuracy = 1.0f;
+    public float accuracy = 2.0f;
 
     private float current_percentage = 0.0f;
     private float distance_ratio = 0.1f;
@@ -33,6 +33,8 @@ public class Patrol : MonoBehaviour {
         target = path.CalcPositionByDistanceRatio(current_percentage);
         Debug.Log(target);
         float distance = (target - transform.position).magnitude;
+        Debug.Log(distance);
+        Debug.Log(accuracy);
         if (distance < accuracy)
         {
             Debug.Log(current_percentage);
@@ -40,8 +42,7 @@ public class Patrol : MonoBehaviour {
             if (current_percentage >= 1.0f)
                 current_percentage = 0.0f;
         }
-        Debug.Log("");
-        Debug.Log(current_percentage);
+        //Debug.Log(current_percentage);
         GetComponent<NavMeshAgent>().destination = target;
     }
 }
