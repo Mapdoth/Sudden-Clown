@@ -26,12 +26,16 @@ public class old_man_kill : MonoBehaviour {
 
     private Animator animation;
     private Animator player_animation;
+    private AudioSource attack_sound;
+    private AudioSource death_sound;
 
     // Use this for initialization
     void Start () {
         animation = GetComponentInChildren<Animator>();
         player_animation = player.GetComponentInChildren<Animator>();
-}
+        attack_sound = player.GetComponentInChildren<AudioSource>();
+        death_sound = GetComponentInChildren<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -93,24 +97,28 @@ public class old_man_kill : MonoBehaviour {
         {
             player_atacking = true;
             player_animation.SetBool("Attacking", player_atacking);
+            attack_sound.Play();
         }
 
         if (state.Buttons.Y == ButtonState.Pressed && key_react == 1)
         {
             player_atacking = true;
             player_animation.SetBool("Attacking", player_atacking);
+            attack_sound.Play();
         }
 
         if (state.Buttons.A == ButtonState.Pressed && key_react == 2)
         {
             player_atacking = true;
             player_animation.SetBool("Attacking", player_atacking);
+            attack_sound.Play();
         }
 
         if (state.Buttons.B == ButtonState.Pressed && key_react == 3)
         {
             player_atacking = true;
             player_animation.SetBool("Attacking", player_atacking);
+            attack_sound.Play();
         }
 
         else if (p_distance > distance_to_trigger)
@@ -130,8 +138,8 @@ public class old_man_kill : MonoBehaviour {
 
         if (player_atacking)
         {
-            animation.SetBool("isDead", true);           
-
+            animation.SetBool("isDead", true);
+            death_sound.Play();
         }
 
         if (animation.GetBool("isDead"))
