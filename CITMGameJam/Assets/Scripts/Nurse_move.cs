@@ -80,7 +80,7 @@ public class Nurse_move : MonoBehaviour {
         float distance = (transform.position - player.transform.position).magnitude;
         if (distance <= range)
         {
-            if (!attacking)
+            if (!attacking && player.gameObject.activeInHierarchy)
             {
                 attacking = true;
                 time = Time.time;
