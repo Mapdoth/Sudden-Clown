@@ -97,42 +97,16 @@ public class old_man_kill : MonoBehaviour {
         }
 
         if (state.Buttons.X == ButtonState.Pressed && key_react == 0 && player_atacking == false)
-        {
-            player_atacking = true;
-            player_animation.SetBool("Attacking", player_atacking);
-            count_kills++;
-            text_kills.text = count_kills.ToString();
-            attack_sound.Play();
-
-        }
+            KillOldMan();
 
         if (state.Buttons.Y == ButtonState.Pressed && key_react == 1 && player_atacking == false)
-        {
-            player_atacking = true;
-            player_animation.SetBool("Attacking", player_atacking);
-            count_kills++;
-            text_kills.text = count_kills.ToString();
-            attack_sound.Play();
-
-        }
+            KillOldMan();
 
         if (state.Buttons.A == ButtonState.Pressed && key_react == 2 && player_atacking == false)
-        {
-            player_atacking = true;
-            player_animation.SetBool("Attacking", player_atacking);
-            count_kills++;
-            text_kills.text = count_kills.ToString();
-            attack_sound.Play();
-        }
+            KillOldMan();
 
         if (state.Buttons.B == ButtonState.Pressed && key_react == 3 && player_atacking == false)
-        {
-            player_atacking = true;
-            player_animation.SetBool("Attacking", player_atacking);
-            count_kills++;
-            text_kills.text = count_kills.ToString();
-            attack_sound.Play();
-        }
+            KillOldMan();
 
         else if (p_distance > distance_to_trigger)
         {
@@ -169,5 +143,16 @@ public class old_man_kill : MonoBehaviour {
 
 
 
+    }
+
+    private void KillOldMan()
+    {
+        player_atacking = true;
+        player_animation.SetBool("Attacking", player_atacking);
+        count_kills++;
+        text_kills.text = count_kills.ToString();
+        attack_sound.Play();
+        Nurse_move.posPlayerAtack = player.transform.position;
+        Nurse_move.movements = NurseMovements.GoHelp;
     }
 }
