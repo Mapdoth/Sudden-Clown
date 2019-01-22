@@ -65,8 +65,7 @@ public class old_man_kill : MonoBehaviour {
 
         if (Surprise.atacking)
         {
-            animation.SetBool("isDead", true);
-            
+            animation.SetBool("isDead", true);           
 
         }
 
