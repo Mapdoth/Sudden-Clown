@@ -1,0 +1,1 @@
+https://github.com/speps/XInputDotNet/releases/tag/v2017.04-2
