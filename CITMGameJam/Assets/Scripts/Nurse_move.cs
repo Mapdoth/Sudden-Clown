@@ -46,7 +46,8 @@ public class Nurse_move : MonoBehaviour {
                 break;
             case NurseMovements.GoHelp:
                 nav.destination = posPlayerAtack;
-                if (!nav.hasPath || nav.velocity.Equals(Vector3.zero))
+                if (transform.position.x <= posPlayerAtack.x + 0.5f && transform.position.x >= posPlayerAtack.x - 0.5f &&
+                    transform.position.z <= posPlayerAtack.z + 0.5f && transform.position.z >= posPlayerAtack.x - 0.5f)
                     movements = NurseMovements.Patrol; 
                 break;
             case NurseMovements.GoToSound:
