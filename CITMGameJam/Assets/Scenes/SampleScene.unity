@@ -2024,6 +2024,12 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &279772532 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114779475095225478, guid: aaaa2c4fd97cb834e8f38d50864973ed,
+    type: 2}
+  m_PrefabInternal: {fileID: 1955577551}
+  m_Script: {fileID: 11500000, guid: b6d20671ad38ded4fa2362df353b9a31, type: 3}
 --- !u!1001 &291140342
 Prefab:
   m_ObjectHideFlags: 0
@@ -7589,6 +7595,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 890428722}
+    - target: {fileID: 114442685936134738, guid: 1f6e02b5f4805564cbed88b3649dc113,
+        type: 2}
+      propertyPath: path
+      value: 
+      objectReference: {fileID: 279772532}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f6e02b5f4805564cbed88b3649dc113, type: 2}
   m_IsPrefabParent: 0
@@ -13992,6 +14003,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 890428722}
+    - target: {fileID: 114442685936134738, guid: 1f6e02b5f4805564cbed88b3649dc113,
+        type: 2}
+      propertyPath: path
+      value: 
+      objectReference: {fileID: 279772532}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f6e02b5f4805564cbed88b3649dc113, type: 2}
   m_IsPrefabParent: 0
@@ -32652,6 +32668,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 890428722}
+    - target: {fileID: 114442685936134738, guid: 1f6e02b5f4805564cbed88b3649dc113,
+        type: 2}
+      propertyPath: path
+      value: 
+      objectReference: {fileID: 279772532}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f6e02b5f4805564cbed88b3649dc113, type: 2}
   m_IsPrefabParent: 0
