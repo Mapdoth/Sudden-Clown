@@ -7,25 +7,35 @@ The game is about a clown killing old people in a nursing home. You'll need to c
 ## Team
 
 [**Alex Campamar**](https://github.com/Acaree)
+
 ![](alex.png)
+
 - Designer
 
 
 [**Joan Valiente**](https://github.com/JoanValiente)
+
 ![](joan.png)
+
 - Designer
 
 
 [**Sergio Gómez**](https://github.com/Sersius)
-![](sergio.png)
+
+![](Sergio.png)
+
 - Designer
 
 
 [**David Lozano**](https://github.com/DavidTheMaaster)
-![](david.png)
+
+![](David.png)
+
 - Artist
 
 
 [**Aleix Gabarró**](https://github.com/aleixgab)
+
 ![](aleix.png)
+
 - Programmer
