@@ -11,20 +11,16 @@ The game is about a clown killing old people in a nursing home. You'll need to c
 
 
 [**Joan Valiente**](https://github.com/JoanValiente)
-
-Designer
+- Designer
 
 
 [**Sergio Gómez**](https://github.com/Sersius)
-
-Designer
+- Designer
 
 
 [**David Lozano**](https://github.com/DavidTheMaaster)
-
-Artist
+- Artist
 
 
 [**Aleix Gabarró**](https://github.com/aleixgab)
-
-Programmer
+- Programmer
