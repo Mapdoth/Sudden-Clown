@@ -6,7 +6,8 @@ The game is about a clown killing old people in a nursing home. You'll need to c
 
 ## Team
 
-[**Alex Campamar**](https://github.com/Acaree)   
+[**Alex Campamar**](https://github.com/Acaree)
+!https://github.com/Mapdoth/Sudden-Clown/blob/master/docs/aleix.png
 - Designer
 
 
