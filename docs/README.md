@@ -52,4 +52,4 @@ R2 -> Use jack-in-the-box
 
 ## Get the game
 
-You can dowload the game [here](https://github.com/Mapdoth/Sudden-Clown/releases/download/1.0/Maph_SuddenClown.1.0.zip)
+You can dowload the game clicking [here](https://github.com/Mapdoth/Sudden-Clown/releases/download/1.0/Maph_SuddenClown.1.0.zip)
