@@ -1,6 +1,6 @@
 ## About the game
 
-This game was done in the first "CITM GameJam" and was prized with Best Art Award & Public's Favourite Award 
+This game was done in the first "CITM Game Jam" and was prized with Best Art Award & Public's Favourite Award 
 
 The game is about a clown killing old people in a nursing home. Nurses will be listening and seeking you. You'll need to cover in plants and bins or use a jack-in-the-box to avoid the nurses and kill all old people.
 
